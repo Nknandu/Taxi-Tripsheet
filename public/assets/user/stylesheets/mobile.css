@@ -1,0 +1,211 @@
+
+
+/*------------------------------------------------------------------------------------------------------------------------------*/
+@media only screen and (max-width: 1440px) {   /* Extra Large Laptops & Devices*/
+/*-------------------------------------------------------------------------------------------------------------------------------*/
+
+.login-form-cover {
+    min-height: 60vh;
+    background-size: cover;
+}
+.login-form-block {
+    width: 50%;
+    padding: 80px 90px;
+}
+
+
+
+
+
+
+
+/*------------------------------------------------------------------------------------------------------------------------------*/
+}@media only screen and (max-width: 1200px) {   /* Extra Large Devices*/
+/*-------------------------------------------------------------------------------------------------------------------------------*/
+
+.login-form-cover {
+    min-height: 60vh;
+    background-size: cover;
+}
+
+.login-form-block {
+    width: 60%;
+    padding: 80px 90px;
+}
+
+.container, .container-md, .container-sm {
+    padding: 0px 50px;
+}
+
+.px-landing-one h1 {
+    font-size: 70px;
+    line-height: 80px;
+}
+.landing-03-contents h1 {
+    font-size: 44px;
+    line-height: 54px;
+    margin-bottom: 40px;
+}
+
+.px-feature-box h3 {
+    font-size: 18px;
+    line-height: 28px;
+}
+
+.px-feature-box p {
+    font-size: 14px;
+    line-height: 24px;
+}
+
+.prime-footer-menu {
+    max-width: 100% !important;
+    flex: 0 0 100% !important;
+    padding-bottom: 25px;
+}
+.site-description {
+    max-width: 100%;
+    flex: 0 0 100%;
+}
+.sub-form-input-wrap {
+    justify-content: center !important;
+    padding-top: 45px !important;
+    border-top: 1px solid rgba(255, 255, 255, 0.10);
+}
+.site-description h3 {
+    text-align: center;
+}
+.second-line-footer {
+    padding-bottom: 45px !important;
+}
+
+
+
+/*------------------------------------------------------------------------------------------------------------------------------*/
+}@media only screen and (max-width: 992px) {   /* Large Devices*/
+/*-------------------------------------------------------------------------------------------------------------------------------*/
+.login-form-block {
+    width: 48%;
+    padding: 65px 75px;
+}
+.login-form-cover {
+    min-height: 60vh;
+    background-size: cover;
+}
+
+/*------------------------------------------------------------------------------------------------------------------------------*/
+}@media only screen and (max-width: 768px) {   /* Tablets */
+/*-------------------------------------------------------------------------------------------------------------------------------*/
+
+.login-form-block {
+    width: 70%;
+    padding: 60px 70px;
+}
+
+.login-form-cover {
+    min-height: 60vh;
+    background-size: cover;
+}
+
+
+/*------------------------------------------------------------------------------------------------------------------------------*/
+}@media only screen and (max-width: 576px) {   /* Small Devices & Landscape phones */
+/*-------------------------------------------------------------------------------------------------------------------------------*/
+
+.login-form-cover {
+    min-height: 60vh;
+    background-size: cover;
+}
+.login-form-block {
+    width: 80%;
+    padding: 60px 70px;
+}
+.google-sign {
+    margin-top: 20px;
+    width: 100%;
+}
+.px-login-btns button {
+    width: 100% !important;
+}
+
+.google-sign {
+    font-size: 12px !important;
+}
+.about-page .px-intermediate {
+    min-height: 60vh;
+}
+
+.pricing-feature-box {
+    margin-bottom: 50px;
+}
+.pricing-contents {
+    width: 100%;
+}
+.pricing-contents h1 {
+    font-size: 26px;
+    line-height: 36px;
+}
+.pricing-contents h2 {
+    font-size: 16px;
+    line-height: 26px;
+}
+
+.pricing-feature-box {
+    margin-bottom: 80px;
+    display: block !important;
+}
+.custom-licence {
+    margin-top: -10px;
+}
+.custom-licence {
+    margin-top: -10px;
+    display: block !important;
+}
+.custom-licence button {
+    margin-left: 0px;
+    margin-top: 20px;
+}
+.FAQ-contents h1 {
+    font-size: 38px;
+    line-height: 48px;
+}
+.FAQ-wrap .card-header {
+    padding-left: 0px;
+}
+.further-links {
+    width: 100%;
+    margin: 0px;
+    padding: 0px;
+    display: block;
+    text-align: center;
+}
+.pricing-feature-box .col-md-6 {
+  /* max-width: 100%;
+  flex: 0 0 100%; */
+}
+
+
+
+
+
+
+.pb-14 {
+    padding-bottom: 7vh;
+}
+.pt-14 {
+    padding-top: 7vh;
+}
+.about-banner {
+    margin-top: 25%;
+}
+
+/*------------------------------------------------------------------------------------------------------------------------------*/
+}@media only screen and (max-width: 375px) {   /* Small Devices & Landscape phones */
+/*-------------------------------------------------------------------------------------------------------------------------------*/
+
+.google-sign {
+    font-size: 12px !important;
+}
+
+/*------------------------------------------------------------------------------------------------------------------------------*/
+}/*    Extra small devices (portrait phones, less than 576px), No media query since this is the default in Bootstrap
+/*-------------------------------------------------------------------------------------------------------------------------------*/

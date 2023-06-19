@@ -1,0 +1,43 @@
+label.error {
+    color: #f55967;
+    font-size: 1.25rem;
+    display: block;
+    margin-top: 5px;
+}
+
+input.error, textarea.error, select.error {
+    border: 1px dashed #f55967 !important;
+    font-weight: 300;
+}
+#customAjaxLoader{
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    background: #00000082;
+    z-index: 11111111;
+}
+.loadingspinner {
+    pointer-events: none;
+    width: 3.5em;
+    height: 3.5em;
+    border: 0.4em solid transparent;
+    border-color: #eee;
+    border-top-color: #3E67EC;
+    border-radius: 50%;
+    animation: loadingspin 1s linear infinite;
+}
+
+@keyframes loadingspin {
+    100% {
+        transform: rotate(360deg)
+    }
+}
+.spinner-wrap{
+    left: 50%;
+    position: absolute;
+    top: 50%;
+    transform: translate(-50%,-50%);
+}
